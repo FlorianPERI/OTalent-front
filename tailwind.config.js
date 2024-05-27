@@ -10,10 +10,6 @@ export default {
       'xl': '1280px', // Ordinateur de bureau
     },
     extend: {
-      backgroundImage: {
-        texture:
-          "url('/src/assets/Texture 7.png')"
-      },
       fontFamily: {
         'title': ['Anton', 'Poppins'],
       },

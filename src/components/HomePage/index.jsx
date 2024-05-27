@@ -11,7 +11,7 @@ import Feature from './Feature';
 import { useAppSelector } from '../../store/redux-hook/hook';
 import Guide from './Guide';
 import TrainingCard from './TrainingCard';
-import NodataBro from '/public/assets/No data-bro';
+import NodataBro from '/src/assets/No data-bro';
 import React from 'react';
 
 export default function HomePage() {
@@ -122,7 +122,9 @@ export default function HomePage() {
           ) : (
             <div className="flex justify-center w-full">
               <div className="flex flex-col md:flex-row lg:w-3/4 p-5 items-center justify-evenly gap-5 text-primary-color w-full">
-                <div className='w-full '><NodataBro/></div>
+                <div className="w-full ">
+                  <NodataBro />
+                </div>
                 <p className="text-left text-xl md:text-3xl">
                   Nous sommes navrés, nous ne disposons pas encore de formations
                   disponibles dans votre région...
