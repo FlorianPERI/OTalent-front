@@ -57,7 +57,7 @@ const Guide = () => {
       className="pb-20 min-h-60 h-fit xl:h-screen flex flex-col justify-start bg-secondary-background bg-texture bg-center bg-cover bg-no-repeat bg-opacity-5  overflow-hidden"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(244, 230, 188, 0.7), rgba(244, 230, 188, 0.7)), url('/public/assets/Texture-7.png')",
+          "linear-gradient(rgba(244, 230, 188, 0.7), rgba(244, 230, 188, 0.7)), url('/assets/Texture-7.png')",
       }}
     >
       <h3 className="text-center pt-10 pb-10 uppercase">
